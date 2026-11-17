@@ -1,0 +1,529 @@
+{
+  "_note": "DEMONSTRATION DATA - reference copy of what DemoDataSeeder.java generates (the seeder is the source of truth).",
+  "medicines": [
+    {
+      "code": "PCM",
+      "name": "Paracetamol 500mg",
+      "genericName": "Paracetamol",
+      "category": "Analgesic / Antipyretic",
+      "form": "Tablet",
+      "strength": "500mg",
+      "unit": "tablets",
+      "reorderLevel": 500,
+      "criticalLevel": 200,
+      "criticality": "HIGH",
+      "unitCost": 0.6,
+      "supplier": "MediSupply Pharma (DEMO)",
+      "avgDailyConsumption": 90,
+      "batches": [
+        {
+          "quantity": 350,
+          "daysToExpiry": 20
+        },
+        {
+          "quantity": 900,
+          "daysToExpiry": 150
+        },
+        {
+          "quantity": 800,
+          "daysToExpiry": 300
+        }
+      ]
+    },
+    {
+      "code": "AMX",
+      "name": "Amoxicillin 500mg",
+      "genericName": "Amoxicillin",
+      "category": "Antibiotic",
+      "form": "Capsule",
+      "strength": "500mg",
+      "unit": "capsules",
+      "reorderLevel": 300,
+      "criticalLevel": 120,
+      "criticality": "HIGH",
+      "unitCost": 2.4,
+      "supplier": "HealthFirst Distributors (DEMO)",
+      "avgDailyConsumption": 45,
+      "batches": [
+        {
+          "quantity": 160,
+          "daysToExpiry": 12
+        },
+        {
+          "quantity": 90,
+          "daysToExpiry": 200
+        }
+      ]
+    },
+    {
+      "code": "MET",
+      "name": "Metformin 500mg",
+      "genericName": "Metformin",
+      "category": "Antidiabetic",
+      "form": "Tablet",
+      "strength": "500mg",
+      "unit": "tablets",
+      "reorderLevel": 400,
+      "criticalLevel": 150,
+      "criticality": "MEDIUM",
+      "unitCost": 0.9,
+      "supplier": "MediSupply Pharma (DEMO)",
+      "avgDailyConsumption": 50,
+      "batches": [
+        {
+          "quantity": 260,
+          "daysToExpiry": 180
+        }
+      ]
+    },
+    {
+      "code": "INS",
+      "name": "Insulin Regular 100IU/ml",
+      "genericName": "Human insulin",
+      "category": "Endocrine",
+      "form": "Vial",
+      "strength": "100IU/ml",
+      "unit": "vials",
+      "reorderLevel": 80,
+      "criticalLevel": 30,
+      "criticality": "CRITICAL",
+      "unitCost": 410.0,
+      "supplier": "LifeLine Biologics (DEMO)",
+      "avgDailyConsumption": 12,
+      "batches": [
+        {
+          "quantity": 22,
+          "daysToExpiry": 60
+        }
+      ]
+    },
+    {
+      "code": "CFX",
+      "name": "Cefixime 200mg",
+      "genericName": "Cefixime",
+      "category": "Antibiotic",
+      "form": "Tablet",
+      "strength": "200mg",
+      "unit": "tablets",
+      "reorderLevel": 200,
+      "criticalLevel": 80,
+      "criticality": "HIGH",
+      "unitCost": 6.5,
+      "supplier": "HealthFirst Distributors (DEMO)",
+      "avgDailyConsumption": 25,
+      "batches": [
+        {
+          "quantity": 60,
+          "daysToExpiry": 90
+        }
+      ]
+    },
+    {
+      "code": "AZI",
+      "name": "Azithromycin 500mg",
+      "genericName": "Azithromycin",
+      "category": "Antibiotic",
+      "form": "Tablet",
+      "strength": "500mg",
+      "unit": "tablets",
+      "reorderLevel": 150,
+      "criticalLevel": 60,
+      "criticality": "HIGH",
+      "unitCost": 14.0,
+      "supplier": "HealthFirst Distributors (DEMO)",
+      "avgDailyConsumption": 20,
+      "batches": [
+        {
+          "quantity": 400,
+          "daysToExpiry": 240
+        }
+      ]
+    },
+    {
+      "code": "PAN",
+      "name": "Pantoprazole 40mg",
+      "genericName": "Pantoprazole",
+      "category": "Gastrointestinal",
+      "form": "Tablet",
+      "strength": "40mg",
+      "unit": "tablets",
+      "reorderLevel": 250,
+      "criticalLevel": 100,
+      "criticality": "MEDIUM",
+      "unitCost": 1.8,
+      "supplier": "CarePlus Wholesale (DEMO)",
+      "avgDailyConsumption": 30,
+      "batches": [
+        {
+          "quantity": 180,
+          "daysToExpiry": 120
+        }
+      ]
+    },
+    {
+      "code": "AML",
+      "name": "Amlodipine 5mg",
+      "genericName": "Amlodipine",
+      "category": "Cardiovascular",
+      "form": "Tablet",
+      "strength": "5mg",
+      "unit": "tablets",
+      "reorderLevel": 300,
+      "criticalLevel": 100,
+      "criticality": "MEDIUM",
+      "unitCost": 0.7,
+      "supplier": "MediSupply Pharma (DEMO)",
+      "avgDailyConsumption": 28,
+      "batches": [
+        {
+          "quantity": 1200,
+          "daysToExpiry": 300
+        }
+      ]
+    },
+    {
+      "code": "SAL",
+      "name": "Salbutamol Inhaler 100mcg",
+      "genericName": "Salbutamol",
+      "category": "Respiratory",
+      "form": "Inhaler",
+      "strength": "100mcg",
+      "unit": "inhalers",
+      "reorderLevel": 100,
+      "criticalLevel": 40,
+      "criticality": "CRITICAL",
+      "unitCost": 95.0,
+      "supplier": "CarePlus Wholesale (DEMO)",
+      "avgDailyConsumption": 14,
+      "batches": [
+        {
+          "quantity": 0,
+          "daysToExpiry": 100
+        }
+      ]
+    },
+    {
+      "code": "ORS",
+      "name": "ORS Sachet",
+      "genericName": "Oral rehydration salts",
+      "category": "Rehydration",
+      "form": "Sachet",
+      "strength": "20.5g",
+      "unit": "sachets",
+      "reorderLevel": 600,
+      "criticalLevel": 250,
+      "criticality": "HIGH",
+      "unitCost": 4.0,
+      "supplier": "CarePlus Wholesale (DEMO)",
+      "avgDailyConsumption": 70,
+      "batches": [
+        {
+          "quantity": 420,
+          "daysToExpiry": 5
+        },
+        {
+          "quantity": 300,
+          "daysToExpiry": 200
+        }
+      ]
+    },
+    {
+      "code": "IBU",
+      "name": "Ibuprofen 400mg",
+      "genericName": "Ibuprofen",
+      "category": "Anti-inflammatory",
+      "form": "Tablet",
+      "strength": "400mg",
+      "unit": "tablets",
+      "reorderLevel": 350,
+      "criticalLevel": 140,
+      "criticality": "MEDIUM",
+      "unitCost": 0.8,
+      "supplier": "MediSupply Pharma (DEMO)",
+      "avgDailyConsumption": 38,
+      "batches": [
+        {
+          "quantity": 500,
+          "daysToExpiry": 200
+        }
+      ]
+    },
+    {
+      "code": "ATO",
+      "name": "Atorvastatin 20mg",
+      "genericName": "Atorvastatin",
+      "category": "Cardiovascular",
+      "form": "Tablet",
+      "strength": "20mg",
+      "unit": "tablets",
+      "reorderLevel": 250,
+      "criticalLevel": 100,
+      "criticality": "LOW",
+      "unitCost": 3.1,
+      "supplier": "HealthFirst Distributors (DEMO)",
+      "avgDailyConsumption": 22,
+      "batches": [
+        {
+          "quantity": 1000,
+          "daysToExpiry": 400
+        }
+      ]
+    },
+    {
+      "code": "OMP",
+      "name": "Omeprazole 20mg",
+      "genericName": "Omeprazole",
+      "category": "Gastrointestinal",
+      "form": "Capsule",
+      "strength": "20mg",
+      "unit": "capsules",
+      "reorderLevel": 300,
+      "criticalLevel": 120,
+      "criticality": "MEDIUM",
+      "unitCost": 1.2,
+      "supplier": "CarePlus Wholesale (DEMO)",
+      "avgDailyConsumption": 33,
+      "batches": [
+        {
+          "quantity": 95,
+          "daysToExpiry": 150
+        }
+      ]
+    },
+    {
+      "code": "CTR",
+      "name": "Ceftriaxone 1g Injection",
+      "genericName": "Ceftriaxone",
+      "category": "Antibiotic",
+      "form": "Injection",
+      "strength": "1g",
+      "unit": "vials",
+      "reorderLevel": 200,
+      "criticalLevel": 80,
+      "criticality": "CRITICAL",
+      "unitCost": 38.0,
+      "supplier": "HealthFirst Distributors (DEMO)",
+      "avgDailyConsumption": 30,
+      "batches": [
+        {
+          "quantity": 140,
+          "daysToExpiry": 150
+        }
+      ]
+    },
+    {
+      "code": "CIP",
+      "name": "Ciprofloxacin 500mg",
+      "genericName": "Ciprofloxacin",
+      "category": "Antibiotic",
+      "form": "Tablet",
+      "strength": "500mg",
+      "unit": "tablets",
+      "reorderLevel": 250,
+      "criticalLevel": 100,
+      "criticality": "MEDIUM",
+      "unitCost": 2.2,
+      "supplier": "MediSupply Pharma (DEMO)",
+      "avgDailyConsumption": 18,
+      "batches": [
+        {
+          "quantity": 600,
+          "daysToExpiry": 260
+        }
+      ]
+    },
+    {
+      "code": "LOS",
+      "name": "Losartan 50mg",
+      "genericName": "Losartan",
+      "category": "Cardiovascular",
+      "form": "Tablet",
+      "strength": "50mg",
+      "unit": "tablets",
+      "reorderLevel": 300,
+      "criticalLevel": 100,
+      "criticality": "MEDIUM",
+      "unitCost": 1.1,
+      "supplier": "MediSupply Pharma (DEMO)",
+      "avgDailyConsumption": 26,
+      "batches": [
+        {
+          "quantity": 250,
+          "daysToExpiry": 200
+        }
+      ]
+    },
+    {
+      "code": "CET",
+      "name": "Cetirizine 10mg",
+      "genericName": "Cetirizine",
+      "category": "Respiratory",
+      "form": "Tablet",
+      "strength": "10mg",
+      "unit": "tablets",
+      "reorderLevel": 200,
+      "criticalLevel": 80,
+      "criticality": "LOW",
+      "unitCost": 0.5,
+      "supplier": "CarePlus Wholesale (DEMO)",
+      "avgDailyConsumption": 15,
+      "batches": [
+        {
+          "quantity": 150,
+          "daysToExpiry": -3
+        },
+        {
+          "quantity": 260,
+          "daysToExpiry": 220
+        }
+      ]
+    },
+    {
+      "code": "DIC",
+      "name": "Diclofenac 50mg",
+      "genericName": "Diclofenac",
+      "category": "Anti-inflammatory",
+      "form": "Tablet",
+      "strength": "50mg",
+      "unit": "tablets",
+      "reorderLevel": 250,
+      "criticalLevel": 100,
+      "criticality": "MEDIUM",
+      "unitCost": 0.9,
+      "supplier": "MediSupply Pharma (DEMO)",
+      "avgDailyConsumption": 20,
+      "batches": [
+        {
+          "quantity": 900,
+          "daysToExpiry": 320
+        }
+      ]
+    },
+    {
+      "code": "OND",
+      "name": "Ondansetron 4mg",
+      "genericName": "Ondansetron",
+      "category": "Gastrointestinal",
+      "form": "Tablet",
+      "strength": "4mg",
+      "unit": "tablets",
+      "reorderLevel": 150,
+      "criticalLevel": 60,
+      "criticality": "HIGH",
+      "unitCost": 3.4,
+      "supplier": "HealthFirst Distributors (DEMO)",
+      "avgDailyConsumption": 17,
+      "batches": [
+        {
+          "quantity": 70,
+          "daysToExpiry": 100
+        }
+      ]
+    },
+    {
+      "code": "FUR",
+      "name": "Furosemide 40mg",
+      "genericName": "Furosemide",
+      "category": "Cardiovascular",
+      "form": "Tablet",
+      "strength": "40mg",
+      "unit": "tablets",
+      "reorderLevel": 200,
+      "criticalLevel": 80,
+      "criticality": "HIGH",
+      "unitCost": 0.6,
+      "supplier": "MediSupply Pharma (DEMO)",
+      "avgDailyConsumption": 24,
+      "batches": [
+        {
+          "quantity": 500,
+          "daysToExpiry": 280
+        }
+      ]
+    },
+    {
+      "code": "HEP",
+      "name": "Heparin 5000IU Injection",
+      "genericName": "Heparin",
+      "category": "Cardiovascular",
+      "form": "Injection",
+      "strength": "5000IU",
+      "unit": "vials",
+      "reorderLevel": 120,
+      "criticalLevel": 50,
+      "criticality": "CRITICAL",
+      "unitCost": 120.0,
+      "supplier": "LifeLine Biologics (DEMO)",
+      "avgDailyConsumption": 16,
+      "batches": [
+        {
+          "quantity": 110,
+          "daysToExpiry": 40
+        }
+      ]
+    },
+    {
+      "code": "DEX",
+      "name": "Dexamethasone 4mg Injection",
+      "genericName": "Dexamethasone",
+      "category": "Anti-inflammatory",
+      "form": "Injection",
+      "strength": "4mg",
+      "unit": "ampoules",
+      "reorderLevel": 150,
+      "criticalLevel": 60,
+      "criticality": "HIGH",
+      "unitCost": 9.0,
+      "supplier": "HealthFirst Distributors (DEMO)",
+      "avgDailyConsumption": 14,
+      "batches": [
+        {
+          "quantity": 600,
+          "daysToExpiry": 200
+        }
+      ]
+    },
+    {
+      "code": "VTC",
+      "name": "Vitamin C 500mg",
+      "genericName": "Ascorbic acid",
+      "category": "Vitamin / Supplement",
+      "form": "Tablet",
+      "strength": "500mg",
+      "unit": "tablets",
+      "reorderLevel": 300,
+      "criticalLevel": 100,
+      "criticality": "LOW",
+      "unitCost": 0.4,
+      "supplier": "CarePlus Wholesale (DEMO)",
+      "avgDailyConsumption": 10,
+      "batches": [
+        {
+          "quantity": 800,
+          "daysToExpiry": 25
+        }
+      ]
+    },
+    {
+      "code": "ASP",
+      "name": "Aspirin 75mg",
+      "genericName": "Aspirin",
+      "category": "Cardiovascular",
+      "form": "Tablet",
+      "strength": "75mg",
+      "unit": "tablets",
+      "reorderLevel": 400,
+      "criticalLevel": 150,
+      "criticality": "MEDIUM",
+      "unitCost": 0.3,
+      "supplier": "MediSupply Pharma (DEMO)",
+      "avgDailyConsumption": 32,
+      "batches": [
+        {
+          "quantity": 2000,
+          "daysToExpiry": 300
+        }
+      ]
+    }
+  ]
+}

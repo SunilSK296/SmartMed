@@ -1,0 +1,15 @@
+{
+  "_note": "DEMONSTRATION DATA - reference copy of what DemoDataSeeder.java generates (the seeder is the source of truth).",
+  "categories": [
+    "Analgesic / Antipyretic",
+    "Antibiotic",
+    "Antidiabetic",
+    "Cardiovascular",
+    "Gastrointestinal",
+    "Respiratory",
+    "Rehydration",
+    "Endocrine",
+    "Anti-inflammatory",
+    "Vitamin / Supplement"
+  ]
+}

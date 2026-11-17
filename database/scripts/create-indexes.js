@@ -1,0 +1,37 @@
+// mongosh script: creates every index explicitly (the backend also creates them on start via auto-index-creation).
+// Useful to inspect/compare in MongoDB Compass.   mongosh smartmed --file database/scripts/create-indexes.js
+db.medicine_types.createIndex({ name: 1 }, { unique: true });
+db.medicines.createIndex({ code: 1 }, { unique: true });
+db.medicines.createIndex({ name: 1 });
+db.medicines.createIndex({ typeId: 1 });
+db.medicines.createIndex({ active: 1, name: 1 }, { name: "active_name" });
+db.users.createIndex({ username: 1 }, { unique: true });
+db.users.createIndex({ email: 1 }, { unique: true });
+db.stock_batches.createIndex({ medicineId: 1, batchNumber: 1 }, { unique: true, name: "uq_medicine_batchno" });
+db.stock_batches.createIndex({ medicineId: 1, expiryDate: 1, receivedDate: 1 }, { name: "fefo" });
+db.stock_batches.createIndex({ expiryDate: 1, quantity: 1 }, { name: "expiry_scan" });
+db.stock_batches.createIndex({ appliedEventIds: 1 });
+db.consumption_log.createIndex({ eventId: 1 }, { unique: true });
+db.consumption_log.createIndex({ medicineId: 1, consumedAt: -1 }, { name: "medicine_time" });
+db.consumption_log.createIndex({ department: 1, consumedAt: -1 }, { name: "department_time" });
+db.consumption_log.createIndex({ userId: 1 });
+db.consumption_log.createIndex({ consumedAt: 1 });
+db.consumption_allocations.createIndex({ eventId: 1, batchId: 1 }, { unique: true, name: "uq_event_batch" });
+db.low_stock_alerts.createIndex({ openKey: 1 }, { unique: true, sparse: true });
+db.low_stock_alerts.createIndex({ status: 1, createdAt: -1 }, { name: "status_created" });
+db.reorder_tasks.createIndex({ activeKey: 1 }, { unique: true, sparse: true });
+db.reorder_tasks.createIndex({ status: 1, priorityScore: -1 }, { name: "status_priority" });
+db.suppliers.createIndex({ name: 1 }, { unique: true });
+db.purchase_orders.createIndex({ poNumber: 1 }, { unique: true });
+db.purchase_orders.createIndex({ status: 1, createdAt: -1 }, { name: "status_created" });
+db.purchase_order_items.createIndex({ purchaseOrderId: 1, medicineId: 1 }, { unique: true, name: "uq_po_medicine" });
+db.stock_receipts.createIndex({ eventId: 1 }, { unique: true });
+db.stock_receipts.createIndex({ purchaseOrderId: 1 });
+db.audit_log.createIndex({ timestamp: 1 });
+db.audit_log.createIndex({ category: 1, timestamp: -1 }, { name: "category_time" });
+db.audit_log.createIndex({ medicineId: 1, timestamp: -1 }, { name: "medicine_time" });
+db.stock_events.createIndex({ status: 1, submittedAt: -1 }, { name: "status_submitted" });
+db.stock_events.createIndex({ medicineId: 1 });
+db.notifications.createIndex({ status: 1, nextAttemptAt: 1 }, { name: "status_next" });
+db.revoked_tokens.createIndex({ expiresAt: 1 }, { expireAfterSeconds: 0 });
+print("indexes created");

@@ -1,0 +1,26 @@
+{
+  "_note": "DEMONSTRATION DATA - reference copy of what DemoDataSeeder.java generates (the seeder is the source of truth). DEV-ONLY credentials - never use outside a local demo.",
+  "users": [
+    {
+      "username": "staff",
+      "password": "Staff@12345",
+      "role": "PHARMACY_STAFF",
+      "fullName": "Asha Kulkarni (DEMO)",
+      "department": "Outpatient"
+    },
+    {
+      "username": "inventory",
+      "password": "Inventory@12345",
+      "role": "INVENTORY_MANAGER",
+      "fullName": "Ravi Patil (DEMO)",
+      "department": "Central Store"
+    },
+    {
+      "username": "manager",
+      "password": "Manager@12345",
+      "role": "PHARMACY_MANAGER",
+      "fullName": "Dr. Meera Joshi (DEMO)",
+      "department": "Pharmacy"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "_note": "DEMONSTRATION DATA - reference copy of what DemoDataSeeder.java generates (the seeder is the source of truth).",
+  "suppliers": [
+    {
+      "name": "MediSupply Pharma (DEMO)",
+      "contactPerson": "Anil Rao",
+      "email": "orders@medisupply.example",
+      "phone": "+91 80 5550 0101",
+      "address": "Bengaluru",
+      "leadTimeDays": 3
+    },
+    {
+      "name": "HealthFirst Distributors (DEMO)",
+      "contactPerson": "Sunita Shah",
+      "email": "sales@healthfirst.example",
+      "phone": "+91 20 5550 0202",
+      "address": "Pune",
+      "leadTimeDays": 5
+    },
+    {
+      "name": "CarePlus Wholesale (DEMO)",
+      "contactPerson": "Imran Khan",
+      "email": "supply@careplus.example",
+      "phone": "+91 832 5550 0303",
+      "address": "Hubballi",
+      "leadTimeDays": 2
+    },
+    {
+      "name": "LifeLine Biologics (DEMO)",
+      "contactPerson": "Dr. P. Menon",
+      "email": "cold-chain@lifeline.example",
+      "phone": "+91 44 5550 0404",
+      "address": "Chennai",
+      "leadTimeDays": 7
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "medicines": [
+    {
+      "medicineId": "MED001",
+      "medicineName": "Paracetamol 500mg Tablets",
+      "currentStock": 20,
+      "minimumStock": 100,
+      "dailyConsumption": 15.0,
+      "criticality": "MEDIUM",
+      "supplierLeadTime": 5,
+      "batches": [
+        { "quantity": 10, "daysToExpiry": 15 },
+        { "quantity": 10, "daysToExpiry": 180 }
+      ]
+    },
+    {
+      "medicineId": "MED002",
+      "medicineName": "Regular Insulin 100 IU/ml",
+      "currentStock": 22,
+      "minimumStock": 80,
+      "dailyConsumption": 12.0,
+      "criticality": "CRITICAL",
+      "supplierLeadTime": 3,
+      "batches": [
+        { "quantity": 22, "daysToExpiry": 60 }
+      ]
+    },
+    {
+      "medicineId": "MED003",
+      "medicineName": "Amoxicillin 500mg Capsules",
+      "currentStock": 0,
+      "minimumStock": 120,
+      "dailyConsumption": 25.0,
+      "criticality": "HIGH",
+      "supplierLeadTime": 7,
+      "batches": []
+    },
+    {
+      "medicineId": "MED004",
+      "medicineName": "Epinephrine 1mg/ml Ampoules",
+      "currentStock": 5,
+      "minimumStock": 50,
+      "dailyConsumption": 4.0,
+      "criticality": "CRITICAL",
+      "supplierLeadTime": 2,
+      "batches": [
+        { "quantity": 5, "daysToExpiry": 10 }
+      ]
+    },
+    {
+      "medicineId": "MED005",
+      "medicineName": "Atorvastatin 20mg Tablets",
+      "currentStock": 250,
+      "minimumStock": 100,
+      "dailyConsumption": 8.0,
+      "criticality": "MEDIUM",
+      "supplierLeadTime": 4,
+      "batches": [
+        { "quantity": 250, "daysToExpiry": 365 }
+      ]
+    },
+    {
+      "medicineId": "MED006",
+      "medicineName": "Metformin 500mg Tablets",
+      "currentStock": 45,
+      "minimumStock": 150,
+      "dailyConsumption": 18.0,
+      "criticality": "HIGH",
+      "supplierLeadTime": 5,
+      "batches": [
+        { "quantity": 45, "daysToExpiry": 200 }
+      ]
+    },
+    {
+      "medicineId": "MED007",
+      "medicineName": "Salbutamol Inhaler 100mcg",
+      "currentStock": 8,
+      "minimumStock": 40,
+      "dailyConsumption": 6.0,
+      "criticality": "HIGH",
+      "supplierLeadTime": 3,
+      "batches": [
+        { "quantity": 8, "daysToExpiry": 25 }
+      ]
+    },
+    {
+      "medicineId": "MED008",
+      "medicineName": "Vitamin C 500mg Chewable",
+      "currentStock": 15,
+      "minimumStock": 60,
+      "dailyConsumption": 5.0,
+      "criticality": "LOW",
+      "supplierLeadTime": 6,
+      "batches": [
+        { "quantity": 15, "daysToExpiry": 400 }
+      ]
+    },
+    {
+      "medicineId": "MED009",
+      "medicineName": "Ceftriaxone 1g Injection",
+      "currentStock": 12,
+      "minimumStock": 90,
+      "dailyConsumption": 14.0,
+      "criticality": "HIGH",
+      "supplierLeadTime": 4,
+      "batches": [
+        { "quantity": 12, "daysToExpiry": 45 }
+      ]
+    },
+    {
+      "medicineId": "MED010",
+      "medicineName": "Heparin 5000 IU/ml Vial",
+      "currentStock": 3,
+      "minimumStock": 30,
+      "dailyConsumption": 5.0,
+      "criticality": "CRITICAL",
+      "supplierLeadTime": 2,
+      "batches": [
+        { "quantity": 3, "daysToExpiry": 8 }
+      ]
+    },
+    {
+      "medicineId": "MED011",
+      "medicineName": "Omeprazole 20mg Capsules",
+      "currentStock": 180,
+      "minimumStock": 80,
+      "dailyConsumption": 10.0,
+      "criticality": "LOW",
+      "supplierLeadTime": 5,
+      "batches": [
+        { "quantity": 180, "daysToExpiry": 500 }
+      ]
+    },
+    {
+      "medicineId": "MED012",
+      "medicineName": "Furosemide 40mg Tablets",
+      "currentStock": 18,
+      "minimumStock": 70,
+      "dailyConsumption": 9.0,
+      "criticality": "MEDIUM",
+      "supplierLeadTime": 4,
+      "batches": [
+        { "quantity": 18, "daysToExpiry": 18 }
+      ]
+    }
+  ]
+}

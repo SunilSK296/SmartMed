@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Standalone Engine (CLI)",
+      "type": "shell",
+      "command": ".\\mvnw.cmd compile exec:java",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Tests (Maven Surefire)",
+      "type": "shell",
+      "command": ".\\mvnw.cmd test",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Tests (Standalone TestRunner)",
+      "type": "shell",
+      "command": "javac -d bin (Get-ChildItem -Recurse -Filter *.java src,tests | Select-Object -ExpandProperty FullName); java -cp bin TestRunner",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

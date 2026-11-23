@@ -1,0 +1,19 @@
+# Build outputs
+target/
+bin/
+*.class
+
+# Maven wrapper distribution
+.mvn/apache-maven-*
+
+# IDEs
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS and Temporary files
+*.log
+.DS_Store
+Thumbs.db

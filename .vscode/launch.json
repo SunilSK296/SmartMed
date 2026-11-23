@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Standalone Scheduling Engine",
+      "request": "launch",
+      "mainClass": "Main",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Run Performance Benchmark",
+      "request": "launch",
+      "mainClass": "benchmark.PerformanceBenchmark",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Run Automated Unit Tests",
+      "request": "launch",
+      "mainClass": "TestRunner",
+      "console": "integratedTerminal"
+    }
+  ]
+}
